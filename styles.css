@@ -1,0 +1,51 @@
+body {
+  background-color: #eeeeee;
+}
+
+.navbar-eletros {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-navbar {
+  max-height: 40px;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #01232e;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+.btn-gerar {
+  background-color: #117d87;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.btn-ambiente {
+  background-color: #117d87;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn-ambiente:active,
+.btn-gerar:active {
+  transform: scale(0.98);
+  background-color: #04232e;
+}
